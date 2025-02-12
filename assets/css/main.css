@@ -1,6 +1,46 @@
-@import url("./base/_mixins.scss");
-@import url("./base/_typography.scss");
-@import url("./base/_utility.scss");
-@import url();
+@font-face {
+  font-family: "ROBOTO";
+  src: url("../fonts/Roboto/static/Roboto-Light.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "ROBOTO";
+}
+
+body {
+  font-family: "ROBOTO";
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.login-btn {
+  color: #212529;
+  background-color: white !important;
+  border: 1px solid #212529;
+  transition: all 0.5s;
+}
+.login-btn:hover {
+  color: white;
+  background-color: #212529 !important;
+  border: none;
+}
+
+.sign-btn {
+  color: white;
+  background-color: #212529 !important;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+.sign-btn:hover {
+  color: #212529;
+  background-color: white !important;
+  border: none;
+}
 
 /*# sourceMappingURL=main.css.map */
