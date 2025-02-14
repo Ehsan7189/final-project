@@ -1,6 +1,5 @@
 const productContainer = document.getElementById('product-container');
 
-// console.log(productContainer);
 
 
 
@@ -18,7 +17,7 @@ const iteration = rawData => {
             <p class="card-text">
                 ${item.description}
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn sign-btn" >Go somewhere</a>
         </div>
         `;
         productContainer.appendChild(cardContainer);
@@ -51,6 +50,7 @@ const render = url => {
 (() => {
 
     render("https://fakestoreapi.com/products")
+    // console.log(signInBtn);
 
 
 })()

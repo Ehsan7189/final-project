@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "ROBOTO";
+  src: url("../fonts/Roboto/static/Roboto-Light.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; //!rem
+  font-family: "ROBOTO";
+}
+
+body {
+  font-family: "ROBOTO";
+  font-size: 1.5rem;
+  font-weight: 500;
+}

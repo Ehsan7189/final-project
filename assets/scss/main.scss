@@ -1,4 +1,6 @@
-@import url("./base/_mixins.scss");
-@import url("./base/_typography.scss");
-@import url("./base/_utility.scss");
-@import url();
+@import "base/mixins";
+@import "base/typography";
+@import "base/utility";
+@import "base/variables";
+
+@import "components/button";

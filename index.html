@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body class="container-fluid">
-    <header class="p-3 mb-3 border-bottom navigation">
+    <header class="p-3 mb-3 border-bottom navbar-fixed navigation">
       <div class="container navigation__container">
         <div
           class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start navigation__container--items"
@@ -57,15 +57,13 @@
           </ul>
 
           <div class="text-end me-3 navigation__btns">
-            <button
-              type="button"
-              class="btn bg-black btn-outline-light me-2 login-btn"
+            <a class="btn me-2 login-btn">Login</a>
+            <a
+              class="btn sign-btn"
+              id="signin-btn"
+              href="./assets/pages/signin.html"
+              >Sign-up</a
             >
-              Login
-            </button>
-            <button type="button" class="btn btn-warning sign-btn">
-              Sign-up
-            </button>
           </div>
 
           <div class="dropdown text-end navigation__char">
@@ -115,8 +113,7 @@
     <div class="row">
       <!-- todo:position fixed -->
       <div
-        class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark col-lg-2"
-        style="height: 90vh"
+        class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark col-lg-2 sidebar"
       >
         <a
           href="/"
@@ -198,41 +195,7 @@
       </div>
       <!-- todo:left: 257px;position: absolute;top: 0; -->
       <main class="col-lg-10">
-        <div class="row" id="product-container">
-          <div class="card col-lg-4">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card col-lg-4">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card col-lg-4">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
+        <div class="row" id="product-container"></div>
       </main>
     </div>
     <div class="container">
