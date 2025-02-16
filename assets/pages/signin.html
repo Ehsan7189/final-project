@@ -8,7 +8,40 @@
       rel="stylesheet"
       href="../bootstrap-5.3.3-dist/css/bootstrap.min.css"
     />
-    <script src="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script async src="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../css/signin.css" />
+    <script async src="../js/signin.js"></script>
   </head>
-  <body></body>
+
+  <main
+    class="form-signin w-100 m-auto d-flex justify-content-center align-items-center signin"
+  >
+    <form class="signin__form">
+      <h1 class="h3 mb-3 fw-normal signin__title">Please sign in</h1>
+
+      <div class="form-floating signin__email-container">
+        <input
+          type="email"
+          class="form-control signin__email--input"
+          id="floatingInpu email-container"
+          placeholder="name@example.com"
+        />
+        <label for="floatingInput signin__email--label">Email address</label>
+      </div>
+      <div class="form-floating signin__pass-container">
+        <input
+          type="password"
+          class="form-control signin__pass--input"
+          id="floatingPassword"
+          placeholder="Password"
+        />
+        <label for="floatingPassword signin__pass--label">Password</label>
+      </div>
+
+      <button class="btn btn-primary w-100 py-2" id="signin-btn" type="submit">
+        Sign in
+      </button>
+    </form>
+  </main>
 </html>
