@@ -11,37 +11,43 @@
     <script async src="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="../css/signin.css" />
+    <link
+      rel="stylesheet"
+      href="../css/animate.css-main/animate.css-main/animate.css"
+    />
     <script async src="../js/signin.js"></script>
   </head>
 
   <main
-    class="form-signin w-100 m-auto d-flex justify-content-center align-items-center signin"
+    class="form-signin w-100 m-auto d-flex justify-content-center align-items-center animate__fadeIn signin"
   >
-    <form class="signin__form">
+    <form class="signin__form" id="form">
       <h1 class="h3 mb-3 fw-normal signin__title">Please sign in</h1>
 
       <div class="form-floating signin__email-container">
         <input
-          type="email"
+          type="text"
           class="form-control signin__email--input"
-          id="floatingInpu email-container"
+          id="floatingInput"
           placeholder="name@example.com"
         />
-        <label for="floatingInput signin__email--label">Email address</label>
+        <label for="floatingInput">Email address</label>
       </div>
-      <div class="form-floating signin__pass-container">
+      <div class="form-floating signin__email-container">
         <input
           type="password"
-          class="form-control signin__pass--input"
-          id="floatingPassword"
-          placeholder="Password"
+          class="form-control signin__email--input"
+          id="password"
+          placeholder="name@example.com"
         />
-        <label for="floatingPassword signin__pass--label">Password</label>
+        <label for="password">Password</label>
       </div>
-
-      <button class="btn btn-primary w-100 py-2" id="signin-btn" type="submit">
+      <p class="text-danger d-none" id="massage">
+        enter you password or email correct
+      </p>
+      <a class="btn btn-primary w-100 py-2 animate__heartBeat" id="signin-btn">
         Sign in
-      </button>
+      </a>
     </form>
   </main>
 </html>
