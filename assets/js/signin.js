@@ -7,39 +7,55 @@ const incorrectMassage = document.getElementById('massage');
 
 const showMassage = element => element.classList.remove("d-none")
 
-// add danger class
-const dangerClass = elementName => elementName.classList.add("bg-danger");
-// sending to denger class
+// shack btn
 
-const sendToDanger = (...args) => args.map(item => dangerClass(item));
+const shakingBtn = btn => btn.classList.add("animate__heartBeat");
 
+// reset button animate and incorrect massage state
+
+
+
+let clickCounter = 0;
 
 // !change input bg
 
 const incorrectHandling = () => {
-    sendToDanger(pass, email)
     showMassage(incorrectMassage)
+    shakingBtn(subBtn);
+    ;
 }
+
+
 
 // !change Page functionality
 
-const changePage = () => {
-    window.location.href = "../pages/check-out.html"
+
+const correctHandling = () => {
+
+    basicData = {
+        email, pass
+    }
+
+    alert(basicData)
 }
 
 
 // ! sub btn functionality
+
 subBtn.addEventListener("click", e => {
+
     e.preventDefault();
-    !email.value && !pass.value ? incorrectHandling() : changePage();
 
 
+    !email.value && !pass.value ? incorrectHandling() : correctHandling();
 
 
-    // });
 
 })
 
+    (() => {
+        location.reload(true)
 
+    })()
 
 
