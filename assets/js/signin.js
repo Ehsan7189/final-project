@@ -22,7 +22,7 @@ let clickCounter = 0;
 const incorrectHandling = () => {
     showMassage(incorrectMassage)
     shakingBtn(subBtn);
-    ;
+
 }
 
 
@@ -33,29 +33,20 @@ const incorrectHandling = () => {
 const correctHandling = () => {
 
     basicData = {
-        email, pass
+        email: email.value, pass: pass.value
     }
+    localStorage.setItem("user", JSON.stringify(basicData));
+    window.location.href = "./check-out.html";
 
-    alert(basicData)
 }
 
 
 // ! sub btn functionality
 
 subBtn.addEventListener("click", e => {
-
     e.preventDefault();
-
-
     !email.value && !pass.value ? incorrectHandling() : correctHandling();
-
-
-
-})
-
-    (() => {
-        location.reload(true)
-
-    })()
+});
+// (() => location.reload())();
 
 
