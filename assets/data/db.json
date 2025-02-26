@@ -1,52 +1,5 @@
 {
-  "users": {
-    "client": {
-      "id": 2,
-      "name": "Ervin Howell",
-      "username": "Antonette",
-      "email": "Shanna@melissa.tv",
-      "address": {
-        "street": "Victor Plains",
-        "suite": "Suite 879",
-        "city": "Wisokyburgh",
-        "zipcode": "90566-7771",
-        "geo": {
-          "lat": "-43.9509",
-          "lng": "-34.4618"
-        }
-      },
-      "phone": "010-692-6593 x09125",
-      "website": "anastasia.net",
-      "company": {
-        "name": "Deckow-Crist",
-        "catchPhrase": "Proactive didactic contingency",
-        "bs": "synergize scalable supply-chains"
-      }
-    },
-    "admins": {
-      "id": 1,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "Sincere@april.biz",
-      "address": {
-        "street": "Kulas Light",
-        "suite": "Apt. 556",
-        "city": "Gwenborough",
-        "zipcode": "92998-3874",
-        "geo": {
-          "lat": "-37.3159",
-          "lng": "81.1496"
-        }
-      },
-      "phone": "1-770-736-8031 x56442",
-      "website": "hildegard.org",
-      "company": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
-      }
-    }
-  },
+  "users": {},
   "country": [
     {
       "name": "Afghanistan",
@@ -335,5 +288,126 @@
 
       "numericCode": "214"
     }
+  ],
+  "freelancerSkills": [
+    "Web Development",
+
+    "Mobile App Development",
+
+    "Graphic Design",
+
+    "Content Writing",
+
+    "SEO Optimization",
+
+    "Digital Marketing",
+
+    "Data Entry",
+
+    "Video Editing",
+
+    "Social Media Management",
+
+    "Copywriting",
+
+    "Translation Services",
+
+    "UI/UX Design",
+
+    "Software Development",
+
+    "Database Management",
+
+    "Project Management",
+
+    "Virtual Assistance",
+
+    "E-commerce Development",
+
+    "WordPress Development",
+
+    "Cloud Computing",
+
+    "Cybersecurity",
+
+    "Game Development",
+
+    "Machine Learning",
+
+    "Blockchain Development",
+
+    "API Development",
+
+    "Email Marketing",
+
+    "Photography",
+
+    "Illustration",
+
+    "Animation",
+
+    "Technical Writing",
+
+    "Research",
+
+    "Customer Support",
+
+    "Financial Consulting",
+
+    "Business Analysis",
+
+    "Market Research",
+
+    "Voice Over",
+
+    "Podcast Editing",
+
+    "Transcription Services",
+
+    "3D Modeling",
+
+    "Interior Design",
+
+    "Fashion Design",
+
+    "Event Planning",
+
+    "Legal Consulting",
+
+    "HR Consulting",
+
+    "Sales Strategy",
+
+    "Public Relations",
+
+    "Brand Strategy",
+
+    "Affiliate Marketing",
+
+    "Content Strategy",
+
+    "User  Testing",
+
+    "Website Maintenance",
+
+    "Performance Marketing",
+
+    "Lead Generation",
+
+    "Data Analysis",
+
+    "Statistical Analysis",
+
+    "Quality Assurance",
+
+    "Network Administration",
+
+    "IT Support",
+
+    "Chatbot Development",
+
+    "Augmented Reality Development",
+
+    "Virtual Reality Development"
   ]
 }

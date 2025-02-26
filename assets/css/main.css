@@ -43,4 +43,30 @@ body {
   border: none;
 }
 
+.product__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.product__title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #bdbbbb;
+}
+.product__description {
+  margin: 2.4rem auto;
+  color: #908d8d;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.product-btn {
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem;
+}
+
 /*# sourceMappingURL=main.css.map */
