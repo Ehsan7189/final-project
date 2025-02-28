@@ -1,3 +1,4 @@
+
 const productContainer = document.getElementById('product-container');
 
 const shortText = (text, maxLength = 136) => text.length > maxLength ? `${(text.substring(0, maxLength))}` + "..." : text + "..."
@@ -9,6 +10,7 @@ const iteration = rawData => {
         const cardContainer = document.createElement("div");
         cardContainer.classList.add("card", "col-lg-4", "product");
 
+
         cardContainer.innerHTML = `
         
         <img src="./assets/img/826118.png" class="card-img-top product__image" alt="..." />
@@ -17,7 +19,7 @@ const iteration = rawData => {
             <p class="card-text product__description">
                 ${shortText(item.description)}
             </p>
-            <a href="#" class="btn sign-btn product-btn" >Go somewhere</a>
+            <a href="#" class="btn sign-btn product__btn"  >Go somewhere</a>
         </div>
         `;
         productContainer.appendChild(cardContainer);
@@ -25,6 +27,9 @@ const iteration = rawData => {
 
     })
 }
+
+
+
 
 // !
 
